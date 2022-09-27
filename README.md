@@ -15,7 +15,7 @@ No Express temos dois tipos de métodos de roteamento, que são os métodos GET 
 ## GET
 O método GET, um dos verbos mais comuns do HTTP é o GET. Quando utilizamos o GET, os parâmetros são passados no cabeçalho da requisição. Por isso, podem ser vistos pela URI, ideais para dados que não são sensiveis!
 Um bom exemplo é a página que você acessa, não é um dado sensivel!
-https://www.site.com.br/artigos/slug...
+https://www.meusite.com.br/artigos/slug...
 Esse é um exemplo /artigos é uma rota /slug seria de fato um artigo que você esta acessando!
 
 ## POST
