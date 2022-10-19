@@ -25,9 +25,9 @@ app.get("/games", async (req, res) => {
     return res.json(games)
 })
 
-app.post("/games/:id/ads", async(req, res) => {
-    const gameId = req.params.id
-    const body:any = req.body;
+app.post("/games/:id/ads", async (request, response) => {
+    const gameId = request.params.id
+    const body:any = request.body;
 
     const ad = await prisma.ad.create({
         data:{
@@ -41,7 +41,7 @@ app.post("/games/:id/ads", async(req, res) => {
             useVoiceChat: body.useVoiceChat
         }
     })
-    return res.status(201).json(ad)
+    return response.status(201).json(ad)
 })
 
 app.get("/games/:id/ads",async (request, response)=>{
