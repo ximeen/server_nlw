@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsnd --exit-child src/server.ts",
-    "start": "yarn run tsc"
+    "start": "run tsc"
   },
   "keywords": [],
   "author": "",
