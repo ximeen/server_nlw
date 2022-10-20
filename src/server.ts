@@ -91,7 +91,3 @@ app.get("/ads/:id/discord", async(request, response)=>{
 
     return response.json({discord: ad.discord})
 });
-
-app.listen(3000, ()=>{
-    console.log("Server is runnig!!")
-})
