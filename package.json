@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server.js",
+  "main": "build/src/server.js",
   "scripts": {
     "clean-linux": "rm -rf build",
     "build": "npm clean-linux tsc",
