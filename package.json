@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsnd --exit-child src/server.ts",
-    "deploy": "tsnd ./server.js"
+    "start": "tsnd --exit-child src/server.ts"
   },
   "keywords": [],
   "author": "",
