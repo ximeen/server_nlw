@@ -4,8 +4,9 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsnd --exit-child src/server.ts",
+    "clean-linux": "rm -rf build",
+    "build": "npm clean-linux tsc",
+    "dev": "npm run build && tsnd src/server.ts",
     "start": "node ."
   },
   "keywords": [],
