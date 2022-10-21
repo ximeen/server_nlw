@@ -4,8 +4,7 @@
   "description": "",
   "main": "build/src/server.js",
   "scripts": {
-    "clean-linux": "rm -rf build",
-    "build": "npm clean-linux tsc",
+    "build": "tsc",
     "dev": "npm run build && tsnd src/server.ts",
     "start": "node ."
   },
