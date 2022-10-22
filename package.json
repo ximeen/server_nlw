@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "npm run build && tsnd src/server.ts",
-    "start": "node /src/server.js"
+    "start": "node build/src/server.js"
   },
   "keywords": [],
   "author": "",
